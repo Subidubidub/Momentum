@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>짠 나만의 동기부여 홈화면 만들기</title>
+    <script src="index.js">
+
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }   
+        
+        body {
+            height: 100vh;
+            background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/general-view-of-a-20-foot-high-christmas-tree-c2-a0in-st-news-photo-1637925972.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .time {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 130px;
+            font-weight: bold; 
+            color: ivory;
+        }
+
+        .greeting {
+            font-family: cursive;
+            font-size: 35px;
+            color:ivory;
+        }
+
+        .todo {
+            font-size: 70px;
+            font-family: cursive;
+            color: ivory;
+        }
+
+        .author {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: wheat;
+        }
+
+        .comment {
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: wheat
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time"> 12:00</div>
+        <div class="greeting">Hey, Suyoung</div>
+        <div class="todo">Learn & Act</div>
+        </div>
+    <div class="quote">
+        <div id="author" class="author"> - 명언의 저자 - </div>
+        <div id="content" class="comment"> " 명언 " </div>
+    </div>
+</body>
+
+</html>
